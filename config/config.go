@@ -3,7 +3,7 @@ package config
 
 import (
 	"fmt"
-	"jwt-gin-practice/models"
+	"jwt-auth-server/models"
 	"os"
 
 	"github.com/jinzhu/gorm"

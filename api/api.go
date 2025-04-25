@@ -1,7 +1,7 @@
 package api
 
 import (
-	"jwt-gin-practice/errors"
+	"jwt-auth-server/errors"
 
 	"github.com/asaskevich/govalidator"
 )

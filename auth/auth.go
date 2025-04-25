@@ -3,7 +3,7 @@ package middlewares
 import (
 	"net/http"
 
-	token "jwt-gin-practice/token"
+	token "jwt-auth-server/token"
 
 	"github.com/gin-gonic/gin"
 )

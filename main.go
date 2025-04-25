@@ -1,8 +1,8 @@
 package main
 
 import (
-	"jwt-gin-practice/config"
-	"jwt-gin-practice/routes"
+	"jwt-auth-server/config"
+	"jwt-auth-server/routes"
 
 	"github.com/gin-gonic/gin"
 )

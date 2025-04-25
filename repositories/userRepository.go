@@ -1,12 +1,12 @@
 package repositories
 
 import (
-	"jwt-gin-practice/api"
-	"jwt-gin-practice/config"
-	"jwt-gin-practice/encrypt"
-	"jwt-gin-practice/errors"
-	"jwt-gin-practice/models"
-	token "jwt-gin-practice/token"
+	"jwt-auth-server/api"
+	"jwt-auth-server/config"
+	"jwt-auth-server/encrypt"
+	"jwt-auth-server/errors"
+	"jwt-auth-server/models"
+	token "jwt-auth-server/token"
 
 	"github.com/jinzhu/gorm"
 )

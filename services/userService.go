@@ -2,9 +2,9 @@
 package services
 
 import (
-	"jwt-gin-practice/api"
-	"jwt-gin-practice/models"
-	"jwt-gin-practice/repositories"
+	"jwt-auth-server/api"
+	"jwt-auth-server/models"
+	"jwt-auth-server/repositories"
 )
 
 type UserService interface {
