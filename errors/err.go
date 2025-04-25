@@ -12,4 +12,4 @@ var ErrEmail = errors.New("Invalid email format")
 var ErrNoSuchEntity = errors.New("No such entity")
 
 // ErrNoSuchEntity is returned when the entity does not exist
-var ErrNoSuchPassword = errors.New("No such password")
+var ErrNoSuchPassword = errors.New("Invalid password")
