@@ -1,7 +1,5 @@
 # jwt gin
 
-## Developpement
-
 
 ## Endpoints
 
