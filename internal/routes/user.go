@@ -2,10 +2,10 @@
 package routes
 
 import (
-	middlewares "jwt-auth-server/auth"
-	"jwt-auth-server/controllers"
-	"jwt-auth-server/repositories"
-	"jwt-auth-server/services"
+	middlewares "jwt-auth-server/internal/auth"
+	"jwt-auth-server/internal/controllers"
+	"jwt-auth-server/internal/repositories"
+	"jwt-auth-server/internal/services"
 	"net/http"
 
 	"github.com/gin-gonic/gin"

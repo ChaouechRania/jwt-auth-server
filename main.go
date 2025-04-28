@@ -2,7 +2,7 @@ package main
 
 import (
 	"jwt-auth-server/config"
-	"jwt-auth-server/routes"
+	"jwt-auth-server/internal/routes"
 
 	"github.com/gin-gonic/gin"
 )

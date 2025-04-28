@@ -4,15 +4,15 @@ package controllers
 
 import (
 	"fmt"
-	"jwt-auth-server/api"
-	"jwt-auth-server/encrypt"
-	"jwt-auth-server/models"
-	"jwt-auth-server/services"
+	"jwt-auth-server/internal/api"
+	"jwt-auth-server/internal/encrypt"
+	"jwt-auth-server/internal/models"
+	"jwt-auth-server/internal/services"
 	"log"
 	"net/http"
 	"strconv"
 
-	token "jwt-auth-server/token"
+	token "jwt-auth-server/internal/token"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"

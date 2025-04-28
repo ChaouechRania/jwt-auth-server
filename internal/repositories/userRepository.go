@@ -1,12 +1,12 @@
 package repositories
 
 import (
-	"jwt-auth-server/api"
 	"jwt-auth-server/config"
-	"jwt-auth-server/encrypt"
-	"jwt-auth-server/errors"
-	"jwt-auth-server/models"
-	token "jwt-auth-server/token"
+	"jwt-auth-server/internal/api"
+	"jwt-auth-server/internal/encrypt"
+	"jwt-auth-server/internal/errors"
+	"jwt-auth-server/internal/models"
+	token "jwt-auth-server/internal/token"
 
 	"github.com/jinzhu/gorm"
 )
@@ -39,7 +39,7 @@ func (r *userRepository) Authenticate(login *api.Login) (string, error) {
 
 	if err != nil {
 		if gorm.IsRecordNotFoundError(err) {
-			return "", errors.ErrNoSuchEntity
+			return "", errors.ErrEmailNotFound
 		}
 		return "", err
 	}

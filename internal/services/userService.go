@@ -2,9 +2,9 @@
 package services
 
 import (
-	"jwt-auth-server/api"
-	"jwt-auth-server/models"
-	"jwt-auth-server/repositories"
+	"jwt-auth-server/internal/api"
+	"jwt-auth-server/internal/models"
+	"jwt-auth-server/internal/repositories"
 )
 
 type UserService interface {
