@@ -12,7 +12,7 @@ import (
 	"net/http"
 	"strconv"
 
-	token "jwt-auth-server/internal/token"
+	token "jwt-auth-server/internal/encrypt"
 
 	"github.com/gin-gonic/gin"
 	"github.com/gin-gonic/gin/binding"

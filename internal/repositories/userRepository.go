@@ -4,9 +4,9 @@ import (
 	"jwt-auth-server/config"
 	"jwt-auth-server/internal/api"
 	"jwt-auth-server/internal/encrypt"
+	token "jwt-auth-server/internal/encrypt"
 	"jwt-auth-server/internal/errors"
 	"jwt-auth-server/internal/models"
-	token "jwt-auth-server/internal/token"
 
 	"github.com/jinzhu/gorm"
 )
